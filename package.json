@@ -1,0 +1,36 @@
+{
+  "name": "nyaaa-bot",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "aaa"
+  ],
+  "homepage": "https://github.com/xerindotzero/nyaaa#readme",
+  "bugs": {
+    "url": "https://github.com/xerindotzero/nyaaa/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xerindotzero/nyaaa.git"
+  },
+  "license": "MIT",
+  "author": "Xerin Zero",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/main.ts",
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "ts-node": "^1.7.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.51.4",
+    "discord.js": "^14.14.1",
+    "chalk":"5.6.2"
+  }
+}
